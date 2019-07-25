@@ -2,5 +2,17 @@
     background-image: url("img/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height:800px;
+    height:600px;
+    text-align: center;
+    color: white;
+    padding-top:200px;
+}
+#row{
+    background-image: url("img/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:150px;
+    text-align: center;
+    color: white;
+    padding-top:200px;  
 }
