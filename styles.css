@@ -32,6 +32,12 @@
 }
  .col-md-12{
      text-align: center;
- }   
+ } 
+.contact{
+    background-image: url("img/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;   
+}
 
 
