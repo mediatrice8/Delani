@@ -37,10 +37,27 @@
     background-image: url("img/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;   
+    height: 450px; 
+    text-align: center; 
+    color: white;
+}
+textarea{
+    width: 400px;
+    height: 150px;
+    padding: 12px 20px;
+    /* border: 2px solid #ccc; */
+    border-radius: 4px;
+    background-color:transparent;
+    font-size: 16px;
+    resize: none;
+}
+input{
+    background-color:transparent;
+    color: white;   
 }
 .footer{
     text-align: center;
+    font-family: Barlow semi condensed;
 }
 
 
