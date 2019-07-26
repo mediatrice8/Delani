@@ -30,6 +30,8 @@
     flex-direction: row;
     justify-content: space-between;
 }
-    
+ .col-md-12{
+     text-align: center;
+ }   
 
 
