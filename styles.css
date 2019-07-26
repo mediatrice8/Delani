@@ -16,3 +16,12 @@
     color: white;
     padding-top:200px;  
 }
+.service{
+    background-image: url("img/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: white;
+    padding-top:70px;
+}
