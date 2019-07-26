@@ -25,3 +25,11 @@
     color: white;
     padding-top:70px;
 }
+.design {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    
+
+
