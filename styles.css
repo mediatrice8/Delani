@@ -57,10 +57,13 @@ textarea{
     color: white;  
 }
 input{
+    color: white;
+    background-color:transparent;
+}
+.giant{
     background-color:transparent;
     height: 25px;
-    width: 280px;  
-    color: white; 
+    width: 280px;   
 }
 ::placeholder{
     color: white;
@@ -88,4 +91,28 @@ table {
 .row{
     text-align: center;
 }
+.good ,.nice ,.best{
+display: none;
+}
+-----------------------------------------------------------------------------
 
+<table >
+<tr>
+    <td><img src="img/work4.jpg" height="150"></td>
+    <td><img src="img/work3.jpg" height="150"></td>
+    <td><img src="img/work2.jpg" height="150"></td>
+    <td><img src="img/work1.jpg" height="150"></td>
+</tr>
+<tr>
+        <td><img src="img/work5.jpg" height="150"></td>
+        <td><img src="img/work6.jpg" height="150"></td>
+        <td><img src="img/work7.jpg" height="150"></td>
+        <td><img src="img/work8.jpg" height="150"></td>
+    </tr>
+</table>
+
+
+var name=prompt("enter your name");
+var email= prompt("enter your email");
+var message= prompt("enter your message");
+alert("name :" + "message received. thanks");
