@@ -3,3 +3,7 @@
 ## Author(s) information
 #### by jonnygovish
 #### by Mediatrice Kampire
+## Setup/Installation Requirements
+#### easy to understand
+#### format
+#### simple
