@@ -79,20 +79,16 @@ input{
 }
 table { 
     border-collapse: collapse; 
-} #1{
-    margin-left: 80px;
-}
-#2{
-    margin-left: 160px;
-}
-#3{
-    margin-right: 80px;   
-} 
+ }
 .row{
     text-align: center;
 }
-.good ,.nice ,.best{
+#good,#nice ,#best {
 display: none;
+font-size: 13px;
+}
+.good,.nice ,.best {
+    font-size: 17px;
 }
 -----------------------------------------------------------------------------
 
