@@ -14,4 +14,10 @@
 - CSS
 - jAVACSRIPT
 - JSQUERY
+# Contact information.
+ Email: kampiremediatrice@gmail.com
+ Tel: +250785610704
+ # License and Copyright information.
+  #### MIT License
 
+ #####Copyright (c) 2019 John Mutavi
