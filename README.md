@@ -7,3 +7,11 @@
 #### easy to understand
 #### format
 #### simple
+# BDD
+#### In this Delani studio, you send message then after receive it they response you according to your question.
+## Technologies Used
+- HTML
+- CSS
+- jAVACSRIPT
+- JSQUERY
+
