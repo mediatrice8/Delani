@@ -34,14 +34,48 @@
  .col-md-12{
      text-align: center;
  } 
-.contact{
-    background-image: url("img/c_image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px; 
-    text-align: center; 
-    color: white;
-}
+ @media (min-width: 576px) {
+    .contact{
+        background-image: url("img/c_image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px; 
+        text-align: center; 
+        color: white;
+    }
+  }
+  @media (min-width: 768px) {
+    contact{
+        background-image: url("img/c_image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px; 
+        text-align: center; 
+        color: white;
+    }
+  }
+  @media (min-width: 992px) {
+    contact{
+        background-image: url("img/c_image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px; 
+        text-align: center; 
+        color: white;
+    }
+  }
+    
+  
+  @media (min-width: 1200px) {
+    contact{
+        background-image: url("img/c_image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px; 
+        text-align: center; 
+        color: white;
+    }
+  }
 .contact > h1{
     padding:20px;
 }
@@ -49,22 +83,42 @@ textarea{
     width: 570px;
     height: 180px;
     padding: 12px 20px;
-    /* border: 2px solid #ccc; */
-    /* border-radius: 4px; */
     background-color:transparent;
     font-size: 20px;
-    /* resize: none; */
     color: white;  
 }
 input{
     color: white;
     background-color:transparent;
 }
-.giant{
-    background-color:transparent;
-    height: 25px;
-    width: 280px;   
-}
+@media (min-width: 576px) {
+    .giant{
+        background-color:transparent;
+        height: 25px;
+        width: 280px;   
+    }
+  }
+  @media (min-width:768px) {
+    .giant{
+        background-color:transparent;
+        height: 25px;
+        width: 280px;   
+    }
+  }
+  @media (min-width: 992px) {
+    .giant{
+        background-color:transparent;
+        height: 25px;
+        width: 280px;   
+    }
+  }
+  @media (min-width: 1200px) {
+    .giant{
+        background-color:transparent;
+        height: 25px;
+        width: 280px;   
+    }
+  }
 ::placeholder{
     color: white;
     font-size: 12px;
@@ -90,11 +144,36 @@ font-size: 13px;
 .good,.nice ,.best {
     font-size: 17px;
 }
-.PORTFOLIO > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+@media (min-width: 576px) {
+    .PORTFOLIO > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+  }
+  @media (min-width:768px){
+    .PORTFOLIO > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    } 
+  }
+  @media (min-width:992px){
+    .PORTFOLIO > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    } 
+  }
+  @media (min-width: 1200px){
+    .PORTFOLIO > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    } 
+  }
+
+
 .bal > #bal ,.gap > #gap ,.sal >#sal ,.nal > #nal ,.web >#web ,.form >#form ,.mock >#mock ,.gir >#gir{
     display: none;
     position: absolute;
@@ -105,3 +184,26 @@ font-size: 13px;
     font-family: ultra;
     color:black
 }
+@media (min-width: 576px) {
+    .area {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .area {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .area {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .area {
+      max-width: 1140px;
+    }
+  }
