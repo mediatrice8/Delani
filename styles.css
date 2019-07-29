@@ -45,7 +45,7 @@
     }
   }
   @media (min-width: 768px) {
-    contact{
+    .contact{
         background-image: url("img/c_image.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -55,7 +55,7 @@
     }
   }
   @media (min-width: 992px) {
-    contact{
+    .contact{
         background-image: url("img/c_image.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -67,7 +67,7 @@
     
   
   @media (min-width: 1200px) {
-    contact{
+    .contact{
         background-image: url("img/c_image.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -79,14 +79,47 @@
 .contact > h1{
     padding:20px;
 }
-textarea{
-    width: 570px;
-    height: 180px;
-    padding: 12px 20px;
-    background-color:transparent;
-    font-size: 20px;
-    color: white;  
-}
+@media (min-width: 992px) {
+    textarea{
+        width: 570px;
+        height: 180px;
+        padding: 12px 20px;
+        background-color:transparent;
+        font-size: 20px;
+        color: white;  
+    }
+  }
+@media (min-width: 768px) {
+    textarea{
+        width: 570px;
+        height: 180px;
+        padding: 12px 20px;
+        background-color:transparent;
+        font-size: 20px;
+        color: white;  
+    }
+  }
+@media (min-width: 992px) {
+    textarea{
+        width: 570px;
+        height: 180px;
+        padding: 12px 20px;
+        background-color:transparent;
+        font-size: 20px;
+        color: white;  
+    }
+  }
+@media (min-width: 1200px) {
+    textarea{
+        width: 570px;
+        height: 180px;
+        padding: 12px 20px;
+        background-color:transparent;
+        font-size: 20px;
+        color: white;  
+    }
+  }
+
 input{
     color: white;
     background-color:transparent;
