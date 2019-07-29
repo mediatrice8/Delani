@@ -7,11 +7,6 @@ $(document).ready(function(){
       });
       $("#3").click(function(){
         $(".best").toggle();
-      });
-      function studio(){
-        var name = document.getElementsByClassName("giant").value;
-        var message= document.getElementById("area").value
-      }
       $('#bal').hide();
       $('#11').animate({opacity:1});
       $("#11").hover(function () {
@@ -94,6 +89,13 @@ $(document).ready(function(){
         $('#gir').fadeOut();
       });
   });
+});
+function studio(){
+  var name =document.getElementById("giant").value;
+  var email =document.getElementById("email").value;
+  var message =document.getElementById("area").value;
+    alert(" "  +name+  " we have received your message. Thank you for reaching out to us.");
+}
   
   
   
