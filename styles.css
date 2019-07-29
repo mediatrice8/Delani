@@ -95,10 +95,13 @@ font-size: 13px;
     flex-direction: row;
     justify-content: space-evenly;
 }
-----------------------------------------------------------------------------
-
-/* 
-var name=prompt("enter your name");
-var email= prompt("enter your email");
-var message= prompt("enter your message");
-alert("name :" + "message received. thanks"); */
+.bal > #bal ,.gap > #gap ,.sal >#sal ,.nal > #nal ,.web >#web ,.form >#form ,.mock >#mock ,.gir >#gir{
+    display: none;
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 60px;
+} 
+#bal,#gap,#sal,#nal{
+    font-family: ultra;
+    color:black
+}
